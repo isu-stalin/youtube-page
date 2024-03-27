@@ -1,0 +1,83 @@
+[
+    {
+      "id" : "1",
+      "img" : "/img/content-video-thumbnail.png",
+      "title" : "Doğu Karadeniz Dağlarında Bisikletle Geziyoruz #100",
+      "avatar" : "/img/tube-logo.svg",
+      "about" : "Yiğit Can İÇ",
+      "data" : "27K views • 1 day ago",
+      "link" : "https://www.youtube.com/watch?v=UjH0ZbS6Iq0"
+    },  
+    {
+     "id" : "2",
+      "img" : "/img/content-video-thumbnail-flex.png",
+      "title" : "Her Derde Deva: CSS Flexbox",
+      "avatar" : "/img/tube-logo.svg",
+      "about" : "Adem Ilter",
+      "data" : "16K views • 2 year ago",
+      "link" : "./public/videos/Her-Derde-Deva-CSS-Flexbox.mp4" 
+    },
+    {
+     "id" : "3",
+      "img" : "/img/content-video-thumbnail-safran.png",
+      "title" : "Doğu Karadeniz Dağlarında Bisikletle Geziyoruz #100",
+      "avatar" : "/img/tube-logo.svg",
+      "about" : "Coşkun Aral Anlatıyor",
+      "data" : "26K views • 1 week ago",
+      "link" : "https://www.youtube.com/watch?v=UjH0ZbS6Iq0" 
+    },
+    {
+     "id" : "4",
+      "img" : "/img/content-video-thumbnail-sparkfun.png",
+      "title" : "Product Showcase: SparkFun MicroMod Ecosystem",
+      "avatar" : "/img/tube-logo.svg",
+      "about" : "SparkFun Electronics",
+      "data" : "2.3K views • 4 day ago",
+      "link" : "https://www.youtube.com/watch?v=UjH0ZbS6Iq0" 
+    },
+    {
+     "id" : "5",
+      "img" : "/img/content-video-thumbnail-wear.png",
+      "title" : "SAVOTTA JÄÄKÄRI L SIRT ÇANTASI VE SAVOTTA...",
+      "avatar" : "/img/tube-logo.svg",
+      "about" : "yener ustun",
+      "data" : "1K views • 9 months ago",
+      "link" : "./public/videos/Her-Derde-Deva-CSS-Flexbox.mp4" 
+    },
+    {
+     "id" : "6",
+      "img" : "/img/content-video-thumbnail-yaxta.png",
+      "title" : "£940,000 Yatch Your : Princess F50",
+      "avatar" : "/img/tube-logo.svg",
+      "about" : "AQUAHOLIC",
+      "data" : "49K views • 21 hours ago",
+      "link" : "./public/videos/Her-Derde-Deva-CSS-Flexbox.mp4" 
+    },
+    {
+     "id" : "7",
+      "img" : "/img/content-video-thumbnail-fly.png",
+      "title" : "Alev Tahta Kurusu - pyrrhocoris apterus",
+      "avatar" : "/img/tube-logo.svg",
+      "about" : "İbrahim Sargın",
+      "data" : "5.8K views • 2 week ago",
+      "link" : "./public/videos/Her-Derde-Deva-CSS-Flexbox.mp4" 
+    },
+    {
+     "id" : "8",
+      "img" : "/img/content-video-thumbnail-ipad.png",
+      "title" : "iPad Air - Kutu Açılışı ve İlk İzlenimler (4. Nesil)",
+      "avatar" : "/img/tube-logo.svg",
+      "about" : "iPhonedo Turkey",
+      "data" : "108K views • 1 day ago",
+      "link" : "./public/videos/Her-Derde-Deva-CSS-Flexbox.mp4" 
+    },
+    {
+     "id" : "9",
+      "img" : "/img/content-video-thumbnail-illustration.png",
+      "title" : "Her Derde Deva: CSS Flexbox",
+      "avatar" : "/img/tube-logo.svg",
+      "about" : "Adem Ilter",
+      "data" : "16K views • 2 year ago",
+      "link" : "./public/videos/Her-Derde-Deva-CSS-Flexbox.mp4" 
+    }
+]

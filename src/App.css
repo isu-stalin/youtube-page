@@ -35,4 +35,238 @@
   to {
     transform: rotate(360deg);
   }
+}* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  background-color: black;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.wrapper {
+  max-width: 100%;
+  height: 100vh;
+  padding: 20px;
+}
+.wrapper header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper header .header-images {
+  width: 250px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+.wrapper header .header-images .logotip {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 25px;
+}
+.wrapper header .header-images .logotip .menu-block {
+  cursor: pointer;
+}
+.wrapper header .header-images .logotip:hover {
+  background-color: rgb(37, 37, 39);
+  border-radius: 100%;
+}
+.wrapper header .header-images .tube-logo-block {
+  margin-right: 3px;
+  cursor: pointer;
+}
+.wrapper header .header-images h2 {
+  cursor: pointer;
+}
+.wrapper header .header-search-block {
+  display: flex;
+  align-items: center;
+}
+.wrapper header .header-search-block .input_block {
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  border: 0.5px solid gray;
+  background-color: rgb(37, 37, 39);
+  padding: 0 25px 0 0;
+}
+.wrapper header .header-search-block .input_block input {
+  width: 600px;
+  height: 40px;
+  background-color: black;
+  border: 0;
+  border-radius: 18px 0 0 18px;
+  padding: 0px 15px;
+  font-size: 20px;
+}
+.wrapper header .header-search-block .input_block .search_icon {
+  margin-left: 25px;
+  cursor: pointer;
+}
+.wrapper header .header-search-block .microphone_icon {
+  background-color: rgb(37, 37, 39);
+  margin-left: 25px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.wrapper header .my_profile_block {
+  fill: white;
+  display: flex;
+  align-items: center;
+  width: 150px;
+  justify-content: space-between;
+}
+.wrapper header .my_profile_block .create_block {
+  cursor: pointer;
+}
+.wrapper header .my_profile_block .sms_block {
+  cursor: pointer;
+}
+.wrapper header .my_profile_block .my_profile_photo_block {
+  cursor: pointer;
+}
+.wrapper header .my_profile_block .my_profile_photo_block img {
+  border-radius: 100%;
+}
+.wrapper main {
+  height: 1350px;
+  width: 100%;
+  display: flex;
+}
+.wrapper main .first_main_block {
+  width: 300px;
+  height: 90%;
+  margin-top: 50px;
+  fill: white;
+}
+.wrapper main .first_main_block .main_rooms {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  justify-content: space-between;
+  align-items: center;
+  display: none;
+}
+.wrapper main .first_main_block .main_rooms .room {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapper main .first_main_block .main_home_icon {
+  height: 45px;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-weight: 500;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.wrapper main .first_main_block .main_home_icon svg {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.wrapper main .first_main_block .main_home_icon:hover {
+  background-color: rgb(37, 37, 39);
+  transition: 0.1s ease;
+}
+.wrapper main .first_main_block .home {
+  background-color: rgb(37, 37, 39);
+}
+.wrapper main .first_main_block .my_rooms {
+  width: 100%;
+  height: 330px;
+  margin-top: 15px;
+  border-top: 1px solid gray;
+}
+.wrapper main .first_main_block .my_rooms h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  color: #ffffff;
+}
+.wrapper main .first_main_block .second_room #img {
+  border-radius: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.wrapper main .first_main_block .third_room {
+  height: 200px;
+}
+.wrapper main .first_main_block .third_room .main_home_icon {
+  padding-top: 15px;
+}
+.wrapper main .second_main_block {
+  width: 100%;
+  height: 1220px;
+  margin-top: 50px;
+}
+.wrapper main .second_main_block .header_of_second_main_block {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  margin-bottom: 30px;
+}
+.wrapper main .second_main_block .header_of_second_main_block .categories {
+  background-color: rgb(37, 37, 39);
+  border-radius: 12px;
+  margin-left: 23px;
+  color: #ffffff;
+  padding: 15px;
+  cursor: pointer;
+}
+.wrapper main .second_main_block .header_of_second_main_block .categories:hover {
+  background-color: #9b9b9b;
+  transition: 0.2s linear;
+}
+.wrapper main .second_main_block .center_of_main_block {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  color: #ffffff;
+}
+.wrapper main .second_main_block .center_of_main_block .tube_videos {
+  width: 380px;
+  height: 340px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.wrapper main .second_main_block .center_of_main_block .tube_videos .collection_text {
+  display: flex;
+}
+.wrapper main .second_main_block .center_of_main_block .tube_videos .collection_text .collection-img img {
+  border-radius: 100%;
+  margin-right: 10px;
+  width: 36px;
+  height: 36px;
+}
+.wrapper main .second_main_block .center_of_main_block .tube_videos .collection_text .collection-info .collection-videos-name h4 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.wrapper main .second_main_block .center_of_main_block .tube_videos .collection_text .collection-info .collection-autors-name p {
+  font-size: 16px;
+  color: #aaa;
+}
+.wrapper main .second_main_block .center_of_main_block .tube_videos .collection_text .collection-info .collection-watching {
+  font-size: 16px;
+  color: #aaa;
+}/*# sourceMappingURL=style.css.map */
